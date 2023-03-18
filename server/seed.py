@@ -27,3 +27,5 @@ with app.app_context():
     
     db.session.add_all(pets)
     db.session.commit()
+
+    print('seeded')
